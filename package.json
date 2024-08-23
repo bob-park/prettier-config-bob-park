@@ -1,16 +1,16 @@
 {
   "name": "@bob-park/prettier-config-bobpark",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "main": "index.js",
   "license": "MIT",
-  "exports": "./lib/index.js",
   "files": [
     "lib"
   ],
   "dependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "eslint-plugin-prettier": "^5.2.1",
-    "prettier": "^3.3.3"
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.6"
   },
   "peerDependencies": {
     "eslint": ">= 8",
@@ -18,5 +18,6 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
-  }
+  },
+  "devDependencies": {}
 }
