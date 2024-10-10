@@ -1,5 +1,5 @@
 module.exports = {
-    "printWidth": 80,
+    "printWidth": 120,
     "semi": true,
     "singleQuote": true,
     "trailingComma": "all",
@@ -8,9 +8,11 @@ module.exports = {
     "endOfLine": "auto",
     "useTabs": false,
     "importOrder": [
-        "^react",
+        '^react$',
+        '^react-icons/(.*$)',
         "^next(/.*)$",
         "@/hooks/(.*)$",
+        '@/components/(.*)$',
         "@/utils/(.*)$",
         "@/shared/(.*)$",
         "@/entries/(.*)$",
