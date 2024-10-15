@@ -10,12 +10,14 @@ module.exports = {
     "importOrder": [
         '^react$',
         '^react-icons/(.*$)',
-        "^next(/.*)$",
+        "^next$",
+        "^next/(.*)$",
+        "@/app/(.*)$",
         "@/hooks/(.*)$",
         '@/components/(.*)$',
-        "@/utils/(.*)$",
         "@/shared/(.*)$",
         "@/entries/(.*)$",
+        "@/utils/(.*)$",
         "<THIRD_PARTY_MODULES>",
         "^[./]"
     ],
